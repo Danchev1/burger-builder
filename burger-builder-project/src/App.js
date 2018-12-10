@@ -1,7 +1,8 @@
 import React from 'react';
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import MainLayout from "./Components/MainLayout";
+import './assets/sass/global/main.sass';
+import Header from "./Components/LayoutComponents/Header/Header";
+import Footer from "./Components/LayoutComponents/Footer/Footer";
+import MainLayout from "./Components/LayoutComponents/MainLayout/MainLayout";
 import BurgerBuilder from "./Containers/BurgerBuilder";
 
 const App = () => {
