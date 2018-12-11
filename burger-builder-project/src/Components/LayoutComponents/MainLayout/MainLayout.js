@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from './MainLayout.module.sass'
 
-const MainLayout = props => {
+const mainLayout = props => {
   return (
       <>
         <div>SideDrawerComponent, CartComponent, BackDrop(Квото и да е тва?!)</div>
-        <main>{props.children}</main>
+        <main className={styles.MainLayout}>{props.children}</main>
       </>
   )
 };
 
-export default MainLayout;
+export default mainLayout;

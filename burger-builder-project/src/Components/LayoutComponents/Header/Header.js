@@ -1,8 +1,8 @@
 import React from 'react'
-import sassClass from './header.module.sass';
+import styles from './Header.module.sass';
 
-const Header = () => {
-  return <header className={sassClass.header}>Header</header>
+const header = () => {
+  return <header className={styles.Header}>Header</header>
 };
 
-export default Header;
+export default header;
