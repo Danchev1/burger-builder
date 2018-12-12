@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-/*import PropTypes from 'prop-types';*/
+import PropTypes from 'prop-types';
 import styles from './Ingredient.module.sass';
 
 class Ingredient extends Component {
@@ -45,9 +45,9 @@ class Ingredient extends Component {
   }
 
 }
-/*
-Ingredient.PropTypes = {
+
+Ingredient.propTypes = {
   type: PropTypes.string.isRequired
-};*/
+};
 
 export default Ingredient;
