@@ -4,7 +4,7 @@ import Header from "./Components/LayoutComponents/Header/Header";
 import Footer from "./Components/LayoutComponents/Footer/Footer";
 import BurgerBuilder from "./Containers/BurgerBuilder";
 
-const AppLayout = () => {
+const App = () => {
     return (
         <>
           <Header/>
@@ -17,4 +17,4 @@ const AppLayout = () => {
     )
 };
 
-export default AppLayout;
+export default App;
