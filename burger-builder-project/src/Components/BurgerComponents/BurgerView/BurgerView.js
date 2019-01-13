@@ -12,7 +12,6 @@ const burgerView = props => {
     return arr.concat(item);
   }, []);
 
-  console.log(ingredients);
   if(!ingredients.length) {
     ingredients = <div>Stat adding your favorites</div>
   }
